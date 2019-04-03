@@ -6,7 +6,7 @@
 -->
 <html>
   <head>
-    <title>Solid State by HTML5 UP</title>
+    <title>Dylan Lee</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -25,7 +25,7 @@
       <header id="header" class="alt">
         <h1><a href="index.html">Dylan Lee</a></h1>
         <nav>
-          <a href="#menu">Menu</a>
+          <a href="#menu">Menu <i class="fas fa-bars"></i></a>
         </nav>
       </header>
 
@@ -37,7 +37,8 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="#one">About Me</a></li>
             <li><a href="#two">Skills</a></li>
-            <li><a href="elements.html">Projects</a></li>
+            <li><a href="#four">Projects</a></li>
+            <li><a href="#three">Next Steps</a></li>
           </ul>
           <a href="#" class="close">Close</a>
         </div>
@@ -50,8 +51,15 @@
           <h2 class="headline">Dylan Lee</h2>
           <p>Fullstack Web Developer, Chess Enthusiast</p>
           <div class="headline-links">
-            <div><i class="fab fa-github fa-2x"></i> Github</div>
-            <div><i class="fab fa-linkedin-in fa-2x"></i> Linkedin</div>
+            <a href="https://github.com/dylanlee082" class="headline-link">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/dylanlee082/" class="headline-link">
+              <i class="fab fa-linkedin-in fa-2x"></i>
+            </a>
+            <a href="mailto:csleedylan@gmail.com" class="headline-link">
+              <i class="fas fa-envelope fa-2x"></i>
+            </a>
           </div>
         </div>
       </section>
@@ -65,10 +73,12 @@
             <div class="content">
               <h2 class="major">About Me</h2>
               <p>
-                Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna.
-                Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.
+                I was never the best in school and always felt disengaged from the constant flow of information, but I've always had a passion for
+                computers. It started with playing video games online, then I wanted to build my own games and I loved the code. Alongside video games
+                chess was a way for me to build my problem solving skills and this coincided perfectly with the code I was learning. Eventually I
+                found a niche in web developement where I could combine my love of code with my want to serve others. I went to DevMountain to pursue
+                an education and I can't wait to get out into the industry.
               </p>
-              <!-- <a href="#" class="special">Learn more</a> -->
             </div>
           </div>
         </section>
@@ -76,12 +86,9 @@
         <!-- Two -->
         <section id="two" class="wrapper alt spotlight style2">
           <div class="inner">
-            <div class="image"><img src="images/pic02.jpg" alt="" /></div>
             <div class="content">
               <h2 class="major">Skills</h2>
-              <p>
-                Skills
-              </p>
+              <p class="skills">React | Redux | Node.js | Express | PostgreSQL | Material Design | Javascript | HTML5 | CSS3</p>
             </div>
           </div>
         </section>
@@ -95,19 +102,21 @@
                 <a href="#" class="image"><img src="images/TheProductivityPlaceImg.PNG" alt=""/></a>
                 <h3 class="major">The Productivity Place</h3>
                 <p>
-                  This is a personal project I completed over a period of two weeks. The technologies used are, React, Redux, Express, Node,
-                  PostgreSQL, Twilio and IBM Watson
+                  Productivity app designed to solve society's overarching time wasting problem with an intuitive web app and elegant SMS
+                  interactions. </br> This is a personal project I completed over a period of two weeks. The technologies used are, React, Redux, Express,
+                  Node, PostgreSQL, Twilio and IBM Watson
                 </p>
-                <a href="https://github.com/dylanlee082/productivity-place" class="special">Project Github</a>
+                <a href="https://github.com/dylanlee082/productivity-place" class="special"><i class="fab fa-github fa-2x"></i> Project Github</a>
               </article>
               <article>
                 <a href="#" class="image"><img src="images/AwayFromHomeImg.PNG" alt=""/></a>
                 <h3 class="major">Away From Home</h3>
                 <p>
-                  This is a group project I completed over a period of two weeks. The technologies used are, React Hooks, Redux, Thunk, Express, Node,
-                  PostgreSQL, Stripe and Nodemailer.
+                  Hotel Management site built to provide hotel owners a place to host hotels and for their users to reserve rooms. </br> This is a group project I
+                  completed over a period of two weeks. The technologies used are, React Hooks, Redux, Thunk, Express, Node, PostgreSQL, Stripe and
+                  Nodemailer.
                 </p>
-                <a href="https://github.com/awayfromhome/awayfromhome" class="special">Project Github</a>
+                <a href="https://github.com/awayfromhome/awayfromhome" class="special"><i class="fab fa-github fa-2x"></i> Project Github</a>
               </article>
             </section>
             <!-- <ul class="actions">
@@ -119,23 +128,29 @@
         <!-- Three -->
         <section id="three" class="wrapper spotlight style3">
           <div class="inner">
-            <a href="#" class="image"><img src="images/pic03.jpg" alt=""/></a>
             <div class="content">
               <h2 class="major">What I'm Doing Next</h2>
+              <h3>Technologies/Patterns</h3>
               <ul>
-                <li>Learn Go</li>
-                <li>Learn Docker</li>
-                <li>Learn Kubernetes</li>
-                <li>Get the Foundational Certification: AWS Certified Cloud Practitioner</li>
+                <li>Microservice Architecture</li>
+                <li>Go</li>
+                <li>Docker</li>
+                <li>Kubernetes</li>
               </ul>
-              <a href="#" class="special">Learn more</a>
+              <h3>Certifications/Courses</h3>
+              <ul>
+                <li>Foundational Certification: AWS Certified Cloud Practitioner</li>
+                <li>CS50 (OSSU)</li>
+                <li>Calculus 1A: Differentiation (OSSU)</li>
+              </ul>
+              * Open Source Society University (OSSU) is meant to provide the same knowledge a traditional computer science degree would provide.
             </div>
           </div>
         </section>
       </section>
 
       <!-- Footer -->
-      <section id="footer">
+      <!-- <section id="footer">
         <div class="inner">
           <h2 class="major">Get in touch</h2>
           <p>
@@ -178,7 +193,7 @@
             <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </div>
 
     <!-- Scripts -->
