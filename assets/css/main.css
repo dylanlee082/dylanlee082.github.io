@@ -308,7 +308,6 @@ a.special:not(.button):before {
   transition: background-color 0.2s ease-in-out;
   border-radius: 100%;
   border: solid 2px rgba(255, 255, 255, 0.125);
-  content: '\f105';
   display: inline-block;
   font-size: 1.25em;
   height: 2em;
@@ -388,7 +387,7 @@ h6.major {
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.7em;
 }
 
 h3 {
@@ -1148,7 +1147,7 @@ ul.pagination li:last-child {
   }
 }
 
-/* Table */
+/* Table
 
 .table-wrapper {
   -webkit-overflow-scrolling: touch;
@@ -1214,7 +1213,7 @@ table.alt thead {
 
 table.alt tfoot {
   border-top: 0;
-}
+} */
 
 /* Button */
 
@@ -1508,10 +1507,6 @@ button:disabled,
   text-transform: none !important;
 }
 
-#header nav a[href='#menu']:before {
-  content: '\f0c9';
-}
-
 #header nav a[href='#menu']:hover {
   background-color: rgba(255, 255, 255, 0.025);
 }
@@ -1556,26 +1551,6 @@ button:disabled,
   #header nav a[href='#menu']:hover,
   #header nav a[href='#menu']:active {
     background-color: inherit;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #header nav a[href='#menu'] {
-    width: 4em;
-    white-space: nowrap;
-    text-indent: 4em;
-    position: relative;
-  }
-
-  #header nav a[href='#menu']:before {
-    width: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-indent: 0;
-    text-align: right;
-    margin-left: 0;
-    padding-right: 1.25em;
   }
 }
 
@@ -1781,7 +1756,7 @@ body.is-menu-visible #menu .inner {
   filter: blur(0);
   opacity: 1;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-  font-size: 2.25em;
+  font-size: 3.2em;
   margin-bottom: 0.8em;
   padding-bottom: 0.4em;
 }
@@ -1810,6 +1785,22 @@ body.is-menu-visible #menu .inner {
   letter-spacing: 0.1em;
   line-height: 2;
   text-transform: uppercase;
+}
+
+.headline-links {
+  display: flex;
+}
+
+.headline-link {
+  display: flex;
+  margin-right: 1.5vw;
+  outline: none;
+  text-decoration: none;
+}
+
+.headline-link > i:hover {
+  color: yellow;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1280px) {
@@ -2480,4 +2471,8 @@ body.is-preload #banner p {
   #footer .inner {
     padding: 2em 1.5em 0.1em 1.5em;
   }
+}
+
+.skills {
+  font-size: 1.4em;
 }
